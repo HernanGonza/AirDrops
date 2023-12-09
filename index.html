@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Herramienta para ver Airdrops</h1>
     <br>
@@ -15,17 +17,52 @@
     <div id="airdropKingList"></div>
     <br>
     <br>
-    <h3>Airdrops.io</h3>
-    <iframe src="https://airdrops.io/latest/" width="75%" height="500"></iframe>
+    <!-- <h3>Airdrops.io</h3>
+    <iframe src="https://airdrops.io/latest/" width="75%" height="500" id="airdrops"></iframe>
     <br>
     <br>
     <h3>Airdrop Alert</h3>
-    <iframe src="https://airdropalert.com/" width="75%" height="500" frameborder="0"></iframe>
+    <iframe src="https://airdropalert.com/" width="75%" height="500" id="airdropalert"></iframe>
     <br>
     <br>
     <h3>FreeAirdrop</h3>
-    <iframe src="https://freeairdrop.io/" width="75%" height="500" frameborder="0"></iframe>
-</body>
+    <iframe src="https://freeairdrop.io/" width="75%" height="500" id="freeairdrop"></iframe>
+    <br>
+    <br> -->
+    <h3>Twitter feeds</h3>
+    <div id="twitterFeeds">
+        
+        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/Airdropalertcom">Airdrop Alert</a>
+        
+        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/Airdrop_Announc">Airdrop Announcements</a>
+        
+        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/airdropking_io">Airdrop King</a>
 
-<script src="https://airdropking.s3.amazonaws.com/api/airdrop_list.min.js" url="https://api.airdropking.io/airdrops/?amount=0&order=best" async defer></script>
+        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/its_airdrop">Airdrop Official</a>
+
+        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/defi_airdrops">DeFi Airdrops</a>
+
+        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/airdropguru">Airdrop Guru</a>
+
+        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/DynamicAirdrops">Dynamic Airdrops</a>
+
+        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/AirdropKingNews">Airdrop King News</a>
+
+        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/CryptoLibrarys">Crypto Library</a>
+
+        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/AirdropBSC_Com">Airdrop BSC</a>
+
+
+    </div>
+    <br>
+<br>
+
+
+
+
+</body>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script src="https://airdropking.s3.amazonaws.com/api/airdrop_list.min.js"
+    url="https://api.airdropking.io/airdrops/?amount=0&order=best" async defer></script>
+<script src="app.js"></script>
 </html>

@@ -17,4 +17,38 @@ h1 {
 
 h3 {
     color: white;
+    text-align: center;
 }
+
+#freeairdrop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#airdropalert {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#airdrops {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#twitterFeeds {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
