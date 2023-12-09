@@ -5,68 +5,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="Airdrops Finder logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#airdropKing">Airdrop King</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#twitterFeeds ">Twitter Feeds</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <h1>Herramienta para ver Airdrops</h1>
     <br>
     <br>
-    <h3>AirdropKing.io</h3>
-    <div id="airdropKingList"></div>
+    <section id="airdropKing">
+        <h3>AirdropKing.io</h3>
+        <div id="airdropKingList"></div>
+    </section>
     <br>
     <br>
-    <!-- <h3>Airdrops.io</h3>
-    <iframe src="https://airdrops.io/latest/" width="75%" height="500" id="airdrops"></iframe>
+    <section id="twitterFeeds">
+        <h3>Twitter feeds</h3>
+        <div id="twitterFeeds">
+
+            <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/Airdropalertcom">Airdrop
+                Alert</a>
+
+            <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/Airdrop_Announc">Airdrop
+                Announcements</a>
+
+            <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/airdropking_io">Airdrop
+                King</a>
+
+            <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/its_airdrop">Airdrop
+                Official</a>
+
+            <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/defi_airdrops">DeFi
+                Airdrops</a>
+
+            <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/airdropguru">Airdrop Guru</a>
+
+            <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/DynamicAirdrops">Dynamic
+                Airdrops</a>
+
+            <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/AirdropKingNews">Airdrop King
+                News</a>
+
+            <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/CryptoLibrarys">Crypto
+                Library</a>
+
+            <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/AirdropBSC_Com">Airdrop
+                BSC</a>
+
+            <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/secretodefi">Secretodefi</a>
+
+            <a width="400" height="400" class="twitter-timeline"
+                href="https://twitter.com/criptotemplo">Criptotemplo</a>
+
+
+        </div>
+    </section>
     <br>
     <br>
-    <h3>Airdrop Alert</h3>
-    <iframe src="https://airdropalert.com/" width="75%" height="500" id="airdropalert"></iframe>
-    <br>
-    <br>
-    <h3>FreeAirdrop</h3>
-    <iframe src="https://freeairdrop.io/" width="75%" height="500" id="freeairdrop"></iframe>
-    <br>
-    <br> -->
-    <h3>Twitter feeds</h3>
-    <div id="twitterFeeds">
-        
-        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/Airdropalertcom">Airdrop Alert</a>
-        
-        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/Airdrop_Announc">Airdrop Announcements</a>
-        
-        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/airdropking_io">Airdrop King</a>
-
-        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/its_airdrop">Airdrop Official</a>
-
-        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/defi_airdrops">DeFi Airdrops</a>
-
-        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/airdropguru">Airdrop Guru</a>
-
-        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/DynamicAirdrops">Dynamic Airdrops</a>
-
-        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/AirdropKingNews">Airdrop King News</a>
-
-        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/CryptoLibrarys">Crypto Library</a>
-
-        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/AirdropBSC_Com">Airdrop BSC</a>
-
-        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/secretodefi">Secretodefi</a>
-
-        <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/criptotemplo">Criptotemplo</a>
-
-
-    </div>
-    <br>
-<br>
-
-
-
-
 </body>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script src="https://airdropking.s3.amazonaws.com/api/airdrop_list.min.js"
-    url="https://api.airdropking.io/airdrops/?amount=0&order=best" async defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="app.js"></script>
 </html>

@@ -1,5 +1,5 @@
 body {
-    background-color: #342e2e;
+    background-color: #352630;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     line-height: 1.6em;
@@ -9,14 +9,15 @@ body {
 
 h1 {
     text-align: center;
-    color: orange;
+    color: #cd5b51;
     font-size: 60px;
     font-style: italic;
+    font-weight: 700;
     
 }
 
 h3 {
-    color: white;
+    color: #e9dfcc;
     text-align: center;
 }
 
@@ -60,4 +61,98 @@ h3 {
     font-size: 50px;
 }
 
+#airdropKingList .ak_card {
+    position: relative;
+    background-color: rgba(185, 45, 45, 0.468);
+    border: 5px solid rgba(6, 6, 6, 0.992);
+    border-radius: 0.25rem;
+    padding: 0.25em;
+    overflow: hidden;
+    margin-bottom: 0.5em;
+    font-family: Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+  }
+  
+  #airdropKingList .ak_card img {
+    height: 3.2em;
+    width: auto;
+    max-width: 3.2em;
+    overflow: hidden;
+    border-radius: 0.4rem;
+    vertical-align: top;
+    padding: 0.2em;
+  }
+  
+  #airdropKingList .ak_card > div {
+    display: inline-block;
+    
+    vertical-align: top;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  
+  #airdropKingList .ak_card .ad_title {
+    font-size: 1.5rem;
+    display: block;
+    font-weight: 700;
+    color: black;
+  }
+  
+  #airdropKingList .ak_card span {
+    padding: 0.25em 0;
+    font-size: 0.7rem;
+  }
+  
+  #airdropKingList .ak_card span.value {
+    padding-right: 1em;
+    font-weight: 700;
+    opacity: 0.7;
+  }
+  
+  #airdropKingList .ak_card span.rating {
+    color: #26b99a;
+  }
+  
+  #airdropKingList .ak_card span.days_left {
+    position: absolute;
+    top: 0;
+    right: 0.5em;
+    font-size: 1rem;
+    color: black;
+  }
+  
+  /* Icons
+     Those are svg files from the javascript file */
+  
+  #airdropKingList .icn {
+    height: 1.1em;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-top: -0.2em;
+  }
+  
+  #airdropKingList .icn.icn-money {
+    padding-right: 0.5em;
+  }
+  
+  #airdropKingList .icn.icn-money .color {
+    fill: #999999;
+  }
+  
+  #airdropKingList .icn.icn-thumbs-up {
+    padding-right: 0.2em;
+  }
+  
+  #airdropKingList .icn.icn-thumbs-up .color {
+    fill: #26b99a;
+  }
 
+.navbar-brand img {
+    height: 75px;
+    width: 75px;
+}
