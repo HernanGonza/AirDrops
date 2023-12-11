@@ -195,3 +195,22 @@ h3 {
   background-color: #555;
 }
 
+/* Centrar los elementos del navbar */
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+
+/* Estilo personalizado para los botones del navbar */
+.navbar-nav .nav-link.btn {
+  margin: 5px; /* Espacio entre los botones */
+  padding: 8px 20px; /* Ajustar padding */
+  border-radius: 20px; /* Borde redondeado */
+  background-color: #007bff; /* Color de fondo */
+  color: #fff; /* Color del texto */
+}
+
+.navbar-nav .nav-link.btn:hover {
+  background-color: #0056b3; /* Cambio de color al pasar el mouse */
+  color: #fff; /* Cambio de color del texto al pasar el mouse */
+}
