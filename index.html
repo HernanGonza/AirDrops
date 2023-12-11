@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://apis.google.com/js/api.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="Airdrops Finder logo"></a>
+            <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="Airdrops Finder logo" id="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,16 +22,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary" href="#">Home</a>
+                        <a class="nav-link btn" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary" href="#airdropKing">Airdrop King</a>
+                        <a class="nav-link btn" href="#airdropKing">Airdrop King</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary" href="#twitterFeeds ">Twitter Feeds</a>
+                        <a class="nav-link btn" href="#twitterFeeds ">Twitter Feeds</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary" href="#">Contact</a>
+                        <a class="nav-link btn" href="#database">Base de datos</a>
                     </li>
                 </ul>
             </div>
@@ -89,6 +90,12 @@
     </section>
     <br>
     <br>
+    <section id="database">
+        <h3>Base de datos</h3>
+        <iframe src="https://docs.google.com/spreadsheets/d/1VBxCWnOttAMmj-sA65FztmBjLaq2Et52SzarY5JMsmA/edit?rm=minimal#gid=0" id="base"></iframe>
+    </section>
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top">Volver arriba</button>
+
 </body>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>

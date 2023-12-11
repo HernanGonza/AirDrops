@@ -53,3 +53,30 @@ function fill_list(arr) {
 // If you change this id you also have to change the one from your divider
 document.getElementById("airdropKingList").innerHTML = o;
 }
+
+
+
+
+
+
+
+//Boton volver arriba
+
+// Mostrar u ocultar el botón según el desplazamiento de la página
+window.onscroll = function() {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("backToTopBtn").style.display = "block";
+    } else {
+        document.getElementById("backToTopBtn").style.display = "none";
+    }
+}
+
+// Función para ir al principio de la página al hacer clic en el botón
+function topFunction() {
+    document.body.scrollTop = 0; // Para Safari
+    document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE y Opera
+}
